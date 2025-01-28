@@ -13,6 +13,6 @@ TEST_CASE( "Test Sign", "[sign]" ) {
         REQUIRE( Sign(-1) == -1 );
         REQUIRE( Sign(-2) == -1 );
         REQUIRE( Sign(-3) == -1 );
-        REQUIRE( Sign(-10) == 1 ); //fail on purpose
+        REQUIRE( Sign(-10) == -1 ); 
     }
 }
